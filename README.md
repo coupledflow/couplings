@@ -28,5 +28,5 @@ If using WANDB, you will see 4 concat'ed image grids. From left to right, the fi
 # Attribution
 - The unet architecture is copied from the amazing lucidrains, [from this particular file](https://github.com/lucidrains/denoising-diffusion-pytorch/blob/main/denoising_diffusion_pytorch/guided_diffusion.py). Slight modifications have been made to be able to switch label conditioning on and off, and to explicitly specify the number of input and output channels in the case that they are not equal.
 - The ode solver for sampling uses the wonderful [torchdiffeq library](https://github.com/rtqichen/torchdiffeq). The code to defaults to using the dopri5 adaptive solver.
-- The center crop image transform is taken from the [Diffusion Transformer repository](...) who themselves take it from the [openAI guided-diffusion repository](https://github.com/openai/guided-diffusion/blob/8fb3ad9197f16bbc40620447b2742e13458d2831/guided_diffusion/image_datasets.py#L126)
+- The center crop image transform is taken from the [Diffusion Transformer repository](https://github.com/facebookresearch/DiT/blob/main/train.py) who themselves take it from the [openAI guided-diffusion repository](https://github.com/openai/guided-diffusion/blob/8fb3ad9197f16bbc40620447b2742e13458d2831/guided_diffusion/image_datasets.py#L126)
 
