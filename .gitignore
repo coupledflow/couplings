@@ -15,7 +15,6 @@ activation*pt
 *stats*npz
 *stats*.tf
 
-scratch/recent/sample_dit/pretrained_models/*pt
 
 ./data
 
@@ -31,10 +30,7 @@ scratch/recent/sample_dit/pretrained_models/*pt
 *.npy
 *.ckpt
 
-**/artifacts/*.png
-**/artifacts/*.np
 
-scratch/data/
 tensorboard/
 log_files/
 
@@ -509,7 +505,5 @@ TSWLatexianTemp*
 
 *.gz
 
-archive/src/scratch/MNIST/
-archive/scratch/data/cifar-10-batches-py/
 data/
 wandb/
